@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/styles/main.css">
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+
+  <!-- owl css -->
+  <link rel="stylesheet" href="styles/owl/owl.carousel.min.css">
+  <link rel="stylesheet" href="styles/owl/owl.theme.default.min.css">
+
+  <!-- responsive -->
+  <link rel="stylesheet" href="styles/responsive.css">
+
+  <title>Netflix - Clone</title>
+</head>
+<body>
+  <header>
+    <div class="header-container">
+      <h2 class="logo">KIDSFLIX</h2>
+      <nav>
+        <a href="#">Início</a>
+        <a href="#">Séries</a>
+        <a href="#">Filmes</a>
+        <a href="#">Documentários</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <div class="principal-content">
+      <div class="container">
+        <h3 class="title">Up: Altas Aventuras</h3>
+        <p class="description">Carl Fredricksen é um vendedor de balões que, aos 78 anos, está prestes a perder a casa em que sempre viveu com sua esposa, a falecida Ellie. Após um incidente, Carl é considerado uma ameaça pública e forçado a ser internado. Para evitar que isto aconteça, ele põe balões em sua casa, fazendo com que ela levante voo. </p>
+      </div>
+
+      <div class="container">
+        <button role="button" class="btn btn-play">
+          <i class="fas fa-play"></i>
+          Assistir          
+        </button>
+        <button onclick="window.open('https://www.themoviedb.org/movie/14160-up?language=pt-BR')"  role="button" class="btn btn-info">
+          <i class="fas fa-info-circle"></i>
+          Mais informações
+        </button>
+      </div>      
+    </div>
+  </main>
+
+  <div class="carousel">
+    <h3>Filmes</h3>
+    <div class="owl-carousel owl-theme">
+      <div class="item">
+        <img class="box-content" src="img/filmes/mini1.jpg">
+      </div>
+      <div class="item">
+        <img class="box-content" src="img/filmes/mini2.jpg">
+      </div>
+      <div class="item">
+        <img class="box-content" src="img/filmes/mini3.jpg">
+      </div>
+      <div class="item">
+        <img class="box-content" src="img/filmes/mini4.jpg">
+      </div>
+      <div class="item">
+        <img class="box-content" src="img/filmes/mini5.jpg">
+      </div>
+
+    </div>
+  </div>
+
+  <div class="carousel">
+    <h3>Séries</h3>
+    <div class="owl-carousel owl-theme">
+      <div class="item">
+        <img class="box-content" src="img/series/mini1.jpg">
+      </div>
+      <div class="item">
+        <img class="box-content" src="img/series/mini2.jpg">
+      </div>
+      <div class="item">
+        <img class="box-content" src="img/series/mini3.jpg">
+      </div>
+      <div class="item">
+        <img class="box-content" src="img/series/mini4.jpg">
+      </div>
+      <div class="item">
+        <img class="box-content" src="img/series/mini5.jpg">
+      </div>
+    </div>
+  </div>
+
+  <div class="modal-overlay">
+    <div class="modal">
+      <div class="modal-content">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/YuFT6BNLOoc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+      <div class="modal-info">
+        <a class="close-modal">Fechar modal</a> 
+      </div>               
+    </div>
+  </div>
+
+  <footer>Feito por Marina - 2020 </footer>
+
+  <script src="https://kit.fontawesome.com/f516fb3b8d.js"></script>
+  <script src="js/owl/jquery.min.js"></script>
+  <script src="js/owl/owl.carousel.min.js"></script>
+  <script src="js/owl/setup.js"></script>
+  <script src="js/modal.js"></script>
+</body>
+</html>
